@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 使内容垂直居中 */
+    background-color: #fce4ec; /* 淡粉色背景 */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#cute-image {
+    max-width: 200px; /* 限制图片最大宽度 */
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex; /* 让按钮并排显示 */
+    justify-content: center; /* 水平居中按钮 */
+    gap: 20px; /* 按钮之间的间隙 */
+}
+
+button {
+    padding: 10px 20px; /* 初始内边距 */
+    font-size: 16px;    /* 初始字体大小 */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* 添加平滑过渡效果 */
+    font-weight: bold;
+}
+
+#yesBtn {
+    background-color: #4CAF50; /* 绿色 */
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336; /* 红色 */
+    color: white;
+}
+
+#success-message {
+    margin-top: 30px;
+    color: #4CAF50; /* 绿色 */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#info-text {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+#introduction-text {
+    color: #64b5f6; /* 淡蓝色 */
+}
+
+#contact-images {
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    gap: 20px; /* 图片之间的间距 */
+    margin-top: 20px; /* 调整与上方元素的间距 */
+}
+
+#contact-images img {
+    width: 150px; /* 设置图片宽度 */
+    height: auto;
+    border-radius: 10px;
+}
